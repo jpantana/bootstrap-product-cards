@@ -63,11 +63,14 @@ const printToDom = (divId, textToPrint) => {
 
 const domStringBuilder = (x) => {
     let domString = ``;
+        domString += `<div class="row">`;
     x.forEach((product) => {
-        domString += `<div class="cards">`;
-        domString +=    `<h2>${product.title}</h2>`;
-        domString += `</div>`;
+        domString +=    `<div class="col-4 cards">`;
+        domString +=        `<h2>${product.title}</h2>`;
+        domString +=    `</div>`;
         })
+        domString += `</div>`;
+
     printToDom('printDom', domString);
 };
 
@@ -77,3 +80,4 @@ const init = () => {
 init();
 
 console.log('products', products);
+console.log(products.length);
