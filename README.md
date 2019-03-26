@@ -1,5 +1,5 @@
 # Bootstrap Product Cards
-Makes 
+JS runs a loop over an object array, and prints to DOM cards that display in flex via Bootstrap.
 
 ## Getting Started
 ```
@@ -7,7 +7,7 @@ $ git clone /https://github.com/jpantana/bootstrap-product-cards
 ```
 
 ## Description
-This site 
+This site shows the responsive handling of bootstrap flex. 
 
 
 ### Screenshot:
@@ -15,7 +15,8 @@ This site
 ![Image of the website from the top down.]("")
 
 ## Features
-*  
+* bootstrap grid
+* Javascript functionality 
   
 
 ### Prerequisites:

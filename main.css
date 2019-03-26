@@ -1,3 +1,14 @@
 body {
     background-color: white;
 }
+
+.cards {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    /* margin: .5px; */
+}
+.imgLoop {
+    width: 200px;
+}
